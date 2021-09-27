@@ -16,6 +16,7 @@ export default class ArrayDeNotas {
 
     inscrever(func) {
         this._inscritos.push(func);
+        //testes
       }
     
       notificar() {

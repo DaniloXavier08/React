@@ -4,11 +4,11 @@ import {ReactComponent as DeleteSVG} from "../../assets/img/delete.svg"
 
 class CardNota extends Component {
 
-  apagar() {
-    const indice =  this.props.indice;
-    this.props.apagarNota(indice)
+  apagar(){
+    const indice = this.props.indice;
+    this.props.apagarNota(indice);
   }
-
+  
   render() {
     return (
       <section className="card-nota">
